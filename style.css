@@ -1,10 +1,22 @@
 :root{
     --green: hsl(75, 94%, 57%);
     --white: hsl(0, 0%, 100%);
+    --grey-300: hsl(0, 0%, 69%);
     --grey-700: hsl(0, 0%, 20%);
     --grey-800: hsl(0, 0%, 12%);
     --grey-900: hsl(0, 0%, 8%);
-    
+    --gap-small: 14px;
+    --gap-medium: 16px;
+    --gap-large: 36px;
+    --borderRadius-small: 10px; 
+    --borderRadius-medium: 20px; 
+    --font-weight-light: 400;
+    --font-weight-medium: 600; 
+    --font-weight-heavy: 700; 
+    --font-size-h1: 26px; 
+    --font-size-h2: 14px; 
+    --font-size-h3: 14px;
+    --font-margin: 12px;
 }
 
 body{
@@ -16,17 +28,78 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter';
+}
+
+button{
+    background-color: var(--grey-700);
+    border: none;
+    border-radius: var(--borderRadius-small);
 }
 
 h1, h2, h3{
     color: var(--white);
+    margin: var(--font-margin);
 }
 
-.content h2{
-    color: var(--green)
+
+h1{
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-medium);
+}
+
+h2{
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-heavy);
+    color: var(--green);
+}
+
+h3{
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-light);
+    color: var(--grey-300);
 }
 
 .tile{
-    background-color: var(--grey-700);
+    background-color: var(--grey-800);
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-medium);
+    text-align: center;
+    padding: var(--gap-large) var(--gap-large);
+    border-radius: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-medium);
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.linkSection{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-small);
+    width: 100%;
+}
+
+.linkSection h2{
+    color: var(--white);
+}
+
+button:hover{
+    background-color: var(--green);
+    cursor: pointer;
+}
+
+button:hover h2{
+    color: var(--grey-700);
 }

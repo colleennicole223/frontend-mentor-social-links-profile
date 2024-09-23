@@ -37,6 +37,11 @@ Your users should be able to:
 
 ### Built with
 
+- HMTL 
+- CSS
+  - Custom properties
+  - Flexbox
+  <!-- - Hover Focus State -->
 
 
 ### What I learned
