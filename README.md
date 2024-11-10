@@ -23,12 +23,12 @@ Your users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot.jpeg)
 
 ### Links
 
 - Solution URL: [https://github.com/colleennicole223/frontend-mentor-social-links-profile](https://github.com/colleennicole223/frontend-mentor-social-links-profile)
-- Live Site URL: []()
+- Live Site URL: [https://colleennicole223.github.io/frontend-mentor-social-links-profile/](https://colleennicole223.github.io/frontend-mentor-social-links-profile/)
 
 ## My process
 
