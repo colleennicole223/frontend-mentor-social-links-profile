@@ -9,8 +9,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -25,13 +23,12 @@ Your users should be able to:
 
 ### Screenshot
 
-#### Final Screenshot
-
-
+![](./screenshot.png)
 
 ### Links
 
-
+- Solution URL: [https://github.com/colleennicole223/frontend-mentor-social-links-profile](https://github.com/colleennicole223/frontend-mentor-social-links-profile)
+- Live Site URL: []()
 
 ## My process
 
@@ -41,26 +38,9 @@ Your users should be able to:
 - CSS
   - Custom properties
   - Flexbox
-  <!-- - Hover Focus State -->
-
-
-### What I learned
-
-
-
-### Continued development
-
-
-
-### Useful resources
-
-
+  - Hover Focus State
 
 ## Author
 
 - Personal Website - [Colleen Nicole](https://www.colleennicole.com)
-- Odin Website - [The Odin Project](https://www.theodinproject.com)
 - Frontend Mentor Profile - [@colleennicole223](https://www.frontendmentor.io/profile/colleennicole223)
-
-
-## Acknowledgments

@@ -61,6 +61,8 @@ h3{
 }
 
 .tile{
+    margin-left: var(--gap-medium);
+    margin-right: var(--gap-medium);
     background-color: var(--grey-800);
     height: fit-content;
     display: flex;
